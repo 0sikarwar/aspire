@@ -1,0 +1,15 @@
+:root {
+  --midnight-blue--100: #0c365a;
+  --lime-green: #01d167;
+  --white: white;
+  --deep-sky-blue: #00ceff;
+  --new-blue: #193557;
+  --shadow: rgba(0, 0, 0, 0.08);
+  --royal-blue: #325baf;
+  --crimson: #f50057;
+  --lime-green-10: rgba(1, 209, 103, 0.1);
+  --grey: rgba(255, 255, 255, 0.75);
+  --yellow: #f7ac16;
+  --light-blue: #215dcc;
+  --midnight-blue--60: rgba(12, 54, 90, 0.6);
+}

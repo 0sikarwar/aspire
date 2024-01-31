@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "avenir-next-lt-pro";
+  src: url("https://assets.website-files.com/5ed5b60be1889f546024ada0/651288728b1468c2e058c3e6_AvenirNextLTPro-Regular.otf")
+    format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "avenir-next-lt-pro";
+  src: url("https://assets.website-files.com/5ed5b60be1889f546024ada0/64fee197c7d090079cf8eb45_AvenirNextLTPro-Medium.otf")
+    format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "avenir-next-lt-pro";
+  src: url("https://assets.website-files.com/5ed5b60be1889f546024ada0/64fee2c87a6a0e88e5a49528_AvenirNextLTPro-Demi.otf")
+    format("opentype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "avenir-next-lt-pro";
+  src: url("https://assets.website-files.com/5ed5b60be1889f546024ada0/64fee4b82bba27d5c7b96dd1_AvenirNextLTPro-Bold.otf")
+    format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}

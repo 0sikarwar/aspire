@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+
+  &-logo {
+    width: 30%;
+    img {
+      width: 128px;
+    }
+  }
+  &-nav {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+
+    &-item a {
+      display: flex;
+      font-size: 14px;
+      align-items: center;
+      padding: 4px;
+
+      img {
+        width: 12px;
+        margin-left: 12px;
+      }
+
+      &:hover {
+        background-color: var(--lime-green-10);
+      }
+    }
+  }
+}

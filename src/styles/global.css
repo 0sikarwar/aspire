@@ -1,0 +1,17 @@
+body,
+html,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: var(--midnight-blue--100);
+  font-family: avenir-next-lt-pro, Tahoma, sans-serif;
+}
+
+.base-container {
+  width: 100%;
+  max-width: 1140px;
+  padding: 10px 24px;
+  margin: 0 auto;
+}
