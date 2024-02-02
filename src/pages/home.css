@@ -1,0 +1,9 @@
+.home-herosection-heading {
+  font-size: 50px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-align: center;
+  span {
+    color: var(--lime-green);
+  }
+}

@@ -10,7 +10,7 @@ html,
 }
 
 .base-container {
-  width: 100%;
+  width: 100vw;
   max-width: 1140px;
   padding: 10px 24px;
   margin: 0 auto;

@@ -1,0 +1,72 @@
+.home-herosection {
+  width: 100%;
+
+  &-images {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transform: scale(1);
+    transition-property: bottom, left, opacity, transform;
+    transition-duration: 0.5s;
+    transition-delay: 1.5s;
+    transition-timing-function: ease-out;
+
+    img {
+      height: auto;
+    }
+    &-left {
+      position: absolute;
+      z-index: 1;
+      width: 22%;
+      bottom: -10%;
+      left: -10%;
+      opacity: 0;
+      transform: scale(0);
+      transition-property: bottom, left, opacity, transform;
+      transition-duration: 0.5s;
+      transition-delay: 0.5s;
+      transition-timing-function: ease-out;
+    }
+    &-center {
+      width: 50%;
+      transition-property: width;
+      transition-duration: 0.8s;
+      transition-timing-function: ease-out;
+    }
+    &-right {
+      position: absolute;
+      z-index: 1;
+      right: -10%;
+      bottom: -10%;
+      width: 26%;
+      opacity: 0;
+      transform: scale(0);
+      transition-property: bottom, right, opacity, transform;
+      transition-duration: 0.5s;
+      transition-delay: 0.8s;
+      transition-timing-function: ease-out;
+    }
+  }
+
+  &-zoomin {
+    .home-herosection {
+      &-images {
+        transform: scale(0.5);
+        &-left {
+          opacity: 1;
+          left: -5%;
+          transform: scale(1);
+        }
+        &-center {
+          width: 80%;
+        }
+        &-right {
+          opacity: 1;
+          right: 2%;
+          transform: scale(1);
+        }
+      }
+    }
+  }
+}

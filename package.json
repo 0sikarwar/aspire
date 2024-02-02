@@ -12,6 +12,7 @@
     "gatsby-plugin-sharp": "^5.13.1",
     "gatsby-source-filesystem": "^5.13.1",
     "gatsby-transformer-sharp": "^5.13.1",
+    "lottie-web": "^5.12.2",
     "postcss": "^8.4.33",
     "postcss-preset-env": "^9.3.0",
     "precss": "^4.0.0",
