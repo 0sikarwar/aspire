@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `Aspire`,
+    description: `A unified solution designed to manage your global business operations and scale company spend, all-in-one account`,
+    author: `@GyanenderSingh`,
+    siteUrl: `https://aspireapp.com/`,
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -12,6 +12,12 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: "gatsby-plugin-manifest",
+      options: {
+        icon: "src/images/icon.png",
       },
     },
     `gatsby-transformer-sharp`,

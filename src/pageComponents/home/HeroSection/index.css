@@ -27,7 +27,7 @@
       height: auto;
     }
     &-left {
-      position: absolute;
+      position: absolute !important;
       z-index: 1;
       width: 22%;
       bottom: -10%;
@@ -46,7 +46,7 @@
       transition-timing-function: ease-out;
     }
     &-right {
-      position: absolute;
+      position: absolute !important;
       z-index: 1;
       right: -10%;
       bottom: -10%;
