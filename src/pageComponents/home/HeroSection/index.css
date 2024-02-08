@@ -120,7 +120,7 @@
       margin: 10px 0 30px;
 
       img {
-        height: 32px;
+        height: 32px !important;
       }
     }
   }
