@@ -1,0 +1,28 @@
+.button-component {
+  display: flex;
+  justify-content: center;
+
+  &-anchor {
+    min-height: 10px;
+    min-width: 200px;
+    width: fit-content;
+    color: var(--white);
+    text-align: center;
+    background-color: var(--lime-green);
+    border: 1px solid var(--lime-green);
+    border-radius: 100px;
+    margin: 10px 0;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2;
+    cursor: pointer;
+  }
+
+  &-secondary {
+    .button-component-anchor {
+      color: var(--lime-green);
+      background-color: var(--black--30);
+    }
+  }
+}

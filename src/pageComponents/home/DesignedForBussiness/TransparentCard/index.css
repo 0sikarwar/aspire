@@ -1,0 +1,26 @@
+.designed-bussiness-transparent-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  &-content {
+    margin-top: 30px;
+  }
+  &-heading {
+    margin-bottom: 16px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  &-subtitle {
+    font-size: 14px;
+    line-height: 1.4;
+    color: var(--midnight-blue--60);
+    a {
+      color: var(--lime-green);
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+.home-designed-for-bussiness {
+  padding: 100px 30px;
+
+  &-subtitle {
+    font-size: 20px;
+    line-height: 1.4;
+    text-align: center;
+    margin: 40px 0;
+    color: var(--midnight-blue--60);
+  }
+  &-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+
+    &:nth-of-type(2) {
+      margin: 80px 0;
+    }
+    .designed-bussiness-transparent-card {
+      width: 25%;
+    }
+    .designed-bussiness-image-card {
+      width: 31.5%;
+      border-radius: 28px;
+      box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    }
+  }
+  &-pay-partner-strip {
+    background-color: var(--grey);
+    padding: 10px 0;
+  }
+  &-pay-partner-logos {
+    display: flex;
+  }
+}

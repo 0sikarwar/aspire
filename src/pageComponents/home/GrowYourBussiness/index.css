@@ -1,0 +1,115 @@
+.home-grow-your-bussiness {
+  padding-top: 100px;
+  padding-bottom: 120px;
+  background-color: var(--midnight-blue--100);
+  .home-heading {
+    color: var(--white);
+  }
+  &-subtitle {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-align: center;
+    color: var(--grey);
+  }
+  &-showcase {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+
+    &.showcase-2 {
+      flex-direction: row-reverse;
+    }
+
+    &-content {
+      width: 40%;
+    }
+    &-heading {
+      font-size: 40px;
+      font-weight: 500;
+      line-height: 1.2;
+      color: var(--white);
+      span {
+        color: var(--lime-green);
+      }
+    }
+    &-subtitle {
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 1.4;
+      color: var(--grey);
+      margin: 30px 0 30px;
+    }
+    &-cta {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1.2;
+      color: var(--deep-sky-blue);
+      display: flex;
+      align-items: center;
+      margin: auto;
+      cursor: pointer;
+
+      img {
+        height: 12px;
+        margin-left: 10px;
+      }
+    }
+    &-lottie {
+      width: 50%;
+    }
+  }
+  &-cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+
+    .grow-business-card {
+      width: 23%;
+    }
+  }
+
+  &-horizontal-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 28px;
+    background-image: linear-gradient(
+      140deg,
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.05)
+    );
+    padding: 45px;
+
+    .home-heading {
+      text-align: left;
+    }
+    &-subtitle {
+      color: var(--grey);
+      margin: 12px 0;
+      font-size: 16px;
+      line-height: 20px;
+    }
+    &-cta {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1.2;
+      color: var(--deep-sky-blue);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      margin: auto;
+      img {
+        height: 12px;
+        margin-left: 10px;
+      }
+    }
+    &-content {
+      width: 40%;
+    }
+    &-image {
+      width: 55%;
+    }
+  }
+}

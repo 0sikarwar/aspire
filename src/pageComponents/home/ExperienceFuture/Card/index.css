@@ -1,0 +1,39 @@
+.experience-future-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  text-align: center;
+
+  &-image {
+    height: 22px;
+    width: auto;
+    object-fit: contain;
+  }
+  &-subtitle {
+    color: var(--grey);
+    margin: 18px 0;
+    font-size: 14px;
+    line-height: 20px;
+    opacity: 0.8;
+  }
+  &-cta {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: var(--deep-sky-blue);
+    display: flex;
+    align-items: center;
+    margin: auto;
+    img {
+      height: 12px;
+      margin-left: 10px;
+    }
+  }
+
+  &:nth-of-type(2) {
+    .experience-future-card-image {
+      height: 32px;
+    }
+  }
+}
